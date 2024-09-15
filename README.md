@@ -10,28 +10,28 @@ The next C lines contain candidate information
 <id> <marks> <number of preferences> <names of colleges in the descending order of preference>
 
 Sample Input
-7
-PCC 3
-GEC 3
-RIT 1
-GCA 3
-GCP 1
-GMC 1
-GDC 1
-6
-411002 86 3 GCA GCP GMC
-321003 94 3 PCC RIT GDC
-321007 89 1 RIT
-321004 90 2 PCC RIT
-321006 96 1 PCC
-321005 95 1 PCC
+7 \n
+PCC 3 \n
+GEC 3 \n
+RIT 1 \n
+GCA 3 \n
+GCP 1 \n 
+GMC 1 \n
+GDC 1 \n
+6 \n
+411002 86 3 GCA GCP GMC \n
+321003 94 3 PCC RIT GDC \n
+321007 89 1 RIT \n
+321004 90 2 PCC RIT \n
+321006 96 1 PCC \n
+321005 95 1 PCC \n
 
 Output Specifications
 The output lists the candidate id followed by the college allotted a single line per candidate.
 Sample Output
-321006 PCC
-321005 PCC
-321003 PCC
-321004 RIT
-321007 null
-411002 GCA
+321006 PCC \n
+321005 PCC \n
+321003 PCC \n
+321004 RIT \n
+321007 null \n 
+411002 GCA \n
